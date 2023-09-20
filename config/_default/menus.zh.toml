@@ -1,0 +1,35 @@
+  [[main]]
+  name = "首页"
+  identifier = "home"
+  weight = 100
+  url = "/zh/"
+
+  [[main]]
+  name = "文章"
+  weight = 200
+  identifier = "posts"
+  url = "/zh/post/"
+
+  [[main]]
+  name = "项目"
+  weight = 300
+  identifier = "portfolio"
+  url = "/zh/portfolio/"
+
+  [[main]]
+  name = "关于我"
+  weight = 400
+  identifier = "about"
+  url = "/zh/about/"
+
+  [[main]]
+  name = "论文专利"
+  weight = 500
+  identifier = "accomplishments"
+  url = "/zh/accomplishments/"
+
+  [[footer]]
+  name = "行之的书房"
+  weight = 1
+  identifier = "imprint"
+  url = "/imprint/"

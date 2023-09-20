@@ -1,11 +1,22 @@
-baseURL = "http://example.org/"
-languageCode = "zh-cn"
-title = "行之的书房"
+baseURL = "https://zhongcheng0519.github.io/blog/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Jane Doe"
+
+# theme as hugo module
+#theme = "github.com/lxndrblz/anatole"
+# theme as git submodule
 theme = "anatole"
 
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
 
 # Syntax highlighting
 pygmentsUseClasses = true   
