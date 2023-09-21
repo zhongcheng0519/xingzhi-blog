@@ -1,6 +1,6 @@
 baseURL = "https://zhongcheng0519.github.io/blog/"
-languageCode = "en"
-DefaultContentLanguage = "en"
+languageCode = "zh"
+DefaultContentLanguage = "zh"
 title = "Website of Jane Doe"
 
 # theme as hugo module

@@ -2,34 +2,34 @@
   name = "Home"
   identifier = "home"
   weight = 100
-  url = "/"
+  url = "/en/"
 
   [[main]]
   name = "Posts"
   weight = 200
   identifier = "posts"
-  url = "/post/"
+  url = "/en/post/"
 
   [[main]]
   name = "Portfolio"
   weight = 300
   identifier = "portfolio"
-  url = "/portfolio/"
+  url = "/en/portfolio/"
 
   [[main]]
   name = "About"
   weight = 400
   identifier = "about"
-  url = "/about/"
+  url = "/en/about/"
 
   [[main]]
   name = "Articles"
   weight = 500
   identifier = "accomplishments"
-  url = "/articles/"
+  url = "/en/articles/"
 
   [[footer]]
   name = "imprint"
   weight = 1
   identifier = "imprint"
-  url = "/imprint/"
+  url = "/en/imprint/"
