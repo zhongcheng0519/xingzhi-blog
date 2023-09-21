@@ -25,8 +25,8 @@
   [[main]]
   name = "论文专利"
   weight = 500
-  identifier = "accomplishments"
-  url = "/zh/accomplishments/"
+  identifier = "articles"
+  url = "/zh/articles/"
 
   [[footer]]
   name = "行之的书房"
