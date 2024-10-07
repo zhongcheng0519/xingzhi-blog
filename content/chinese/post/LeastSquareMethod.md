@@ -44,19 +44,19 @@ $$
 $$
 E(a,b) = \lVert {
 \begin{pmatrix}
-y_1 \\
-y_2 \\
-\vdots \\
+y_1 \\\\
+y_2 \\\\
+\vdots \\\\
 y_N
 \end{pmatrix} - 
 \begin{pmatrix}
-x_1 & 1 \\
-x_2 & 1 \\
-\vdots & \vdots \\
+x_1 & 1 \\\\
+x_2 & 1 \\\\
+\vdots & \vdots \\\\
 x_N & 1 
 \end{pmatrix}
 \begin{pmatrix}
-a \\
+a \\\\
 b
 \end{pmatrix}}
 \rVert_2^2
