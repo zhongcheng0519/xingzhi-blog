@@ -183,11 +183,10 @@ $$
 接着求导：
 
 $$
-\frac{\partial{f(k,b)}}{\partial{k}}=-2\sum_i{w_i(y_i-kx_i-b)x_i}
-$$
-
-$$
-\frac{\partial{f(k,b)}}{\partial{b}}=-2\sum_i{w_i(y_i-kx_i-b)}
+\begin{align}
+\frac{\partial{f(k,b)}}{\partial{k}}&=-2\sum_i{w_i(y_i-kx_i-b)x_i} \\
+\frac{\partial{f(k,b)}}{\partial{b}}&=-2\sum_i{w_i(y_i-kx_i-b)}
+\end{align}
 $$
 
 接着令导数为0，并且求$k$和$b$
