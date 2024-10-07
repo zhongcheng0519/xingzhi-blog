@@ -16,16 +16,16 @@
       MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
     </script>
   {{- else -}}
-    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" -}}
-    {{- $hash := "sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" -}}
+    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" -}}
+    {{- $hash := "sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" -}}
     <link rel="stylesheet" href="{{- $url -}}" integrity="{{- $hash -}}" crossorigin="anonymous" />
 
-    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" -}}
-    {{- $hash := "sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" -}}
+    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" -}}
+    {{- $hash := "sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" -}}
     <script defer src="{{- $url -}}" integrity="{{- $hash -}}" crossorigin="anonymous"></script>
 
-    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" -}}
-    {{- $hash := "sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" -}}
+    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" -}}
+    {{- $hash := "sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" -}}
     <script
       defer
       src="{{- $url -}}"
