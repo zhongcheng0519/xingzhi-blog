@@ -184,7 +184,7 @@ $$
 
 $$
 \begin{align}
-\frac{\partial{f(k,b)}}{\partial{k}}&=-2\sum_i{w_i(y_i-kx_i-b)x_i} \\
+\frac{\partial{f(k,b)}}{\partial{k}}&=-2\sum_i{w_i(y_i-kx_i-b)x_i} \\\\
 \frac{\partial{f(k,b)}}{\partial{b}}&=-2\sum_i{w_i(y_i-kx_i-b)}
 \end{align}
 $$
